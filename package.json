@@ -1,0 +1,21 @@
+{
+  "name": "lp2ava1seunome",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "arthur liberato",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "compression": "^1.8.1",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.3.1",
+    "fs": "^0.0.1-security",
+    "helmet": "^8.1.0",
+    "mongoose": "^9.3.3",
+    "morgan": "^1.10.1"
+  }
+}

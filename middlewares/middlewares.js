@@ -17,7 +17,9 @@ const ratedLimit= rateLimit({
     max: 100,
     message: "Muitas requisições, tente novamente em 10 minutos."
 });
+const logFile = fs.createWriteStream(path.join(__dirname, 'access.log'), {flags:'a'});
 const morganMiddleware=morgan('combined',{stream: logFile});
+
 
 export{
     staticMiddleware,
